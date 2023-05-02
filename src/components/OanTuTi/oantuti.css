@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap");
+img {
+  width: 100%;
+  cursor: pointer;
+}
+body {
+  background-color: #98a8f8;
+  color: white;
+}
+.img-tuti {
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  border: 2px solid pink;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.img-tuti img {
+  animation: loopInter 1s forwards ease;
+}
+.computer {
+  height: 320px !important;
+}
+@keyframes loopInter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.row img {
+  width: 100%;
+}
+.btn-play {
+  border: 0;
+  padding: 10px 20px;
+  background-color: aquamarine;
+  cursor: pointer;
+  font-weight: bold;
+}
+.text {
+  font-family: "Dancing Script", cursive;
+}
+.col-4.iron {
+  border: 0;
+}
+.col-4.iron:focus {
+  border: 2px solid pink;
+}
+.ket-qua {
+  font-weight: bold;
+  font-size: 50px;
+  color: #395144;
+}
+.ban-thang {
+  font-weight: bold;
+  color: #395144;
+}
+.ban-choi {
+  font-weight: bold;
+  color: #395144;
+}

@@ -1,0 +1,36 @@
+.card-img-top {
+  width: 100%;
+  padding: 15px;
+  height: 100%;
+  object-fit: cover;
+  height: 348px;
+}
+.card {
+  border-radius: 15px;
+}
+.card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.title {
+  text-align: center;
+  padding: 20px;
+}
+td {
+  border-bottom: 2px solid #dee2e6;
+}
+.btn-add {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+.cart-icon {
+  cursor: pointer;
+  display: block;
+  margin-left: 85%;
+  padding: 25px 0;
+  font-size: 20px;
+}
